@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     height: 1300px;
     
@@ -61,3 +62,97 @@ h5{
     margin-top: 29px;
    margin-left: 70px;
 }
+/* pour le style de ecrire de page  */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* nav par de menu */
+#nav1{
+    height: 90px;
+    background-color:#73C5F7;
+    position: sticky;
+    top: 0;
+    z-index:1 ;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    color: rgb(7, 7, 7);
+}
+/* pour le logo  de site */
+#div1{
+    margin-left: 30px;
+}
+
+#div1 img{
+    margin-top: 0px;
+    width: 200px;
+}
+/* de list de menu  */
+.div2{
+    
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 330px;
+}
+.a_menu{
+font-size: 15px;
+margin-left: 100px;
+margin-top: -112px;
+text-decoration: none;
+color: rgb(0, 0, 0);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+font-weight: bold;
+}
+.div3{
+    display: none;
+}
+@media only screen and (max-width: 376px) {
+     /* nav par de menu pour mobil */
+    #nav1{
+        height: 60px;
+        width: 100%;
+        
+    }
+     /* logo pour mobil */
+    #div1{
+        margin-left: 15px;
+    }
+    #div1 img{
+        margin-top: 5px;
+        width: 100px;
+    }
+     
+    .div2{
+        display: none;
+    }
+    /*  n'pas affiche de mobil
+    #Imgmenu{
+        width: 40px;
+        margin-top: px;
+    } */
+    /*  n'pas affiche de mobil 
+    .div3{
+        display: block;
+       margin-bottom: 50px;
+    }
+    #i-menu{
+        margin-left: 250px;
+        
+    }*/
+    nav .icon-burger{
+        position: absolute;
+        right: 20px;
+        top: 5%;
+        transform: translateY(30%);
+    }
+    nav .icon-burger .line{
+        width: 30px;
+        height: 5px;
+        background-color: rgb(0, 0, 0);
+        margin: 5px;
+        border-radius: 3px;
+    }
