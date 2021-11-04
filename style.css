@@ -1,12 +1,9 @@
-<<<<<<< HEAD
-body{
-    height: 1300px;
-    
-}
+/*Titre de confiance*/
 .question{
     text-align:center;
     font-size: 20px;
 }
+/*tous les confiances */
 .partie1{
     flex-direction:column;
    display: grid;
@@ -15,53 +12,161 @@ body{
    justify-content: space-between;
    margin-top: 55px;
 }
+/* div de chaque confiance */
 .qualité p{
     width: 230px;
-}
-.par{
     margin-left: 100px;
-    text-align: justify;
+    text-align:justify;
     font-size: 18px;
 }
+
+/* Icon de confiance */
 i{
     font-size: 30px;
     color: #0f74bcbb;
 }
+/* Titre de confiance */
 h5{
     font-size: 16px;
 }
+
+/*partie pour expliquer les services*/
+
+/* premier paragraphe photo et texte */
+.partie2{
+    flex-direction:column;
+    display: grid;
+    grid-template-columns:43% 57%;  
+    margin-top: 10px;
+}
+/* pour faire descendre la partie 3 */
+#div-parti3{
+    margin-top: 50px;
+}
+    /* image du premier paragraphe */
 .img1{
     height:240px ;
     width: 530px;
     margin-left: 70px;
 }
-.partie2{
-    flex-direction:column;
-    display: grid;
-    grid-template-columns:43% 57%;  
-}
+
+/* premier paragraphe */
 .et{
     margin: 49px;
     font-size: 20px;
+    margin-top: 80px;
 }
+/* div de paragraphe 1 */
 .mm{
     height:240px ;
-    background-color: cadetblue;
+    background-color: #73C5F7;
     margin-right: 20PX;
 }
 .img2{
     height:240px ;
     width: 500px;
-    margin-left: 190px;
-    margin-top: 29px;
+    margin-left: 200px;
+    margin-top: 29px
 }
+/* div de paragraphe 2*/
 .cc{
     height:240px ;
-    background-color: cadetblue;
-   width: 659px;
+    background-color: #73C5F7;
+   width: 675px;
     margin-top: 29px;
    margin-left: 70px;
 }
+
+/*partie pour expliquer les services*/
+
+/* FORMULAIRE */
+.mainleft{
+    
+    display: grid;
+    background-color: #DED6D6;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+
+input{
+    width:80%;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid black;
+    margin-left: 70px;
+    font-style: italic;
+    padding-left: 20px;
+}
+/* titre de formulaire */
+.titreformulaire{
+    margin-left: 270px;
+    margin-top: 23px;
+}
+/* paragraphe du formulaire */
+.p{
+    margin-left: 150px; 
+    margin-top:-10px;
+}
+/* checkbox */
+.checkbox{
+    margin-left: -170px;
+}
+/* div checkbox et paragraphe */
+.check{
+   display: flex;
+   flex-direction: row;
+
+}
+/* paragraphe de check */
+.pcheck{
+    margin-left: -190px;
+    margin-top: 25px;
+}
+/* button de formulaire de validation */
+.button_main{
+    width: 190px;
+    margin-left: 400px;
+    background-color:#0f74bcbb;
+}
+/* image de start */
+.img5{
+    width: 150px;
+    margin-top: -37px;
+}
+/* partie de formulaire et commentaire */
+.dernierepartie{
+    flex-direction:column;
+    display: grid;
+    grid-template-columns:60% 40%; 
+    justify-content: space-between;
+  
+}
+/* partie commentaire */
+.mainright{
+    margin-left: 25px;
+    margin-top: 23px;
+    }
+/* image et paragraphe de commentaire */
+.class1{
+    display: flex;
+    flex-direction: row;
+  margin-top: 35px;
+}
+/* titre de commentaire */
+.titrecommentaire{
+    margin-left: 170px;
+}
+.pa{
+    margin-LEFT: 70px;
+    margin-top:-10px;
+}
+
+
+
+
+
+
 /* pour le style de ecrire de page  */
 
 body{
