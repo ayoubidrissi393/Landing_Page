@@ -163,7 +163,15 @@ input{
     margin-LEFT: 70px;
     margin-top:-10px;
 }
-
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    font-size: 15px;
+}
+.imglogo{
+    width: 200px;
+}
 
 
 
