@@ -61,6 +61,106 @@ h5{
     margin-top: 29px;
    margin-left: 70px;
 }
+
+
+/*partie pour expliquer les services*/
+
+/* FORMULAIRE */
+.mainleft{
+    
+    display: grid;
+    background-color: #DED6D6;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+
+input{
+    width:80%;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid black;
+    margin-left: 70px;
+    font-style: italic;
+    padding-left: 20px;
+}
+/* titre de formulaire */
+.titreformulaire{
+    margin-left: 270px;
+    margin-top: 23px;
+}
+/* paragraphe du formulaire */
+.p{
+    margin-left: 150px; 
+    margin-top:-10px;
+}
+/* checkbox */
+.checkbox{
+    margin-left: -170px;
+}
+/* div checkbox et paragraphe */
+.check{
+   display: flex;
+   flex-direction: row;
+
+}
+/* paragraphe de check */
+.pcheck{
+    margin-left: -190px;
+    margin-top: 25px;
+}
+/* button de formulaire de validation */
+.button_main{
+    width: 190px;
+    margin-left: 400px;
+    background-color:#0f74bcbb;
+}
+/* image de start */
+.img5{
+    width: 150px;
+    margin-top: -37px;
+}
+/* partie de formulaire et commentaire */
+.dernierepartie{
+    flex-direction:column;
+    display: grid;
+    grid-template-columns:60% 40%; 
+    justify-content: space-between;
+  
+}
+/* partie commentaire */
+.mainright{
+    margin-left: 25px;
+    margin-top: 23px;
+    }
+/* image et paragraphe de commentaire */
+.class1{
+    display: flex;
+    flex-direction: row;
+  margin-top: 35px;
+}
+/* titre de commentaire */
+.titrecommentaire{
+    margin-left: 170px;
+}
+.pa{
+    margin-LEFT: 70px;
+    margin-top:-10px;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    font-size: 15px;
+}
+.imglogo{
+    width: 200px;
+}
+
+
+
+
+
 /* pour le style de ecrire de page  */
 
 body{
